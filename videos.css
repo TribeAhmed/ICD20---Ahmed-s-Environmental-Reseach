@@ -1,0 +1,35 @@
+body
+{
+    height: 1600px;
+    background-color: burlywood;
+}
+
+#heading
+{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1
+{
+    color: olive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button
+{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: yellow;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+
+button:hover
+{
+  box-shadow: 0 10px 10px 0 black, 0 10px 20px 0 black;
+  background-color: purple; 
+  color: yellow;
+  cursor: pointer;
+}
